@@ -1,0 +1,77 @@
+#floating-map-button1 {
+    position: fixed;
+    display: flex;
+    padding: 14px 19px;
+    align-items:center;
+    left: 90%; /*부모의 50%*/
+    bottom: 70px;
+    background-color: white;
+    border-radius: 24px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 8px;
+    cursor: pointer;
+}
+
+#floating-map-button2 {
+    position: fixed;
+    display: flex;
+    padding: 14px 19px;
+    align-items:center;
+    left: 90%; /*부모의 50%*/
+    bottom: 125px;
+    background-color: white;
+    border-radius: 24px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 8px;
+    cursor: pointer;
+}
+
+#floating-map-button3 {
+    position: fixed;
+    display: flex;
+    padding: 14px 19px;
+    align-items:center;
+    left: 90%; /*부모의 50%*/
+    bottom: 180px;
+    background-color: white;
+    border-radius: 24px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 8px;
+    cursor: pointer;
+}
+
+#floating-map-button4 {
+    position: fixed;
+    display: flex;
+    padding: 14px 19px;
+    align-items:center;
+    left: 90%; /*부모의 50%*/
+    bottom: 235px;
+    background-color: white;
+    border-radius: 24px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.floating-map-button:hover {
+    box-shadow: 0 0 0 1px transparent, 0 0 0 4px transparent, 0 6px 16px rgba(0,0,0,0.12) !important; /*그림자가 세개지만 마지막것만 표시된다.*/
+    transform: translateX(-50%) scale(1.04);
+}
+
+.b_black{
+    color: white;
+    float: left;
+}
